@@ -1,6 +1,8 @@
-# execute-uploaded-file
+# Execute Uploaded File - A Vulnerable Web Application
+This repository contains a web application that prompts a user to upload a file, simulating a phishing attack scenario. The uploaded file is then executed automatically, allowing the attacker to run a command of their choice on the victim's machine.
 
+The application makes use of the watchdir.py script within the documents directory, which monitors a specified directory for new files and executes them accordingly. This makes it a valuable tool for demonstrating the dangers of malicious file uploads, and can be used in a penetration testing course to educate students on the techniques used by attackers.
 
-# Vulerable web application that prompts a user to upload a file. 
-This app simulates a phishing attack where a user opens a malicious file
-Once downloaded, a command of one's choice will be executed. My use case is for students in a penetration testing course, where a libreoffice document is uploaded and executed, including its macros.
+As an example, students can upload a LibreOffice document with macro capabilities, showing the potential for an attacker to execute arbitrary code on a target's machine.
+
+This application is for educational purposes only and should not be used for malicious purposes.
