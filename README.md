@@ -6,3 +6,11 @@ The application makes use of the watchdir.py script within the documents directo
 As an example, students can upload a LibreOffice document with macro capabilities, showing the potential for an attacker to execute arbitrary code on a target's machine.
 
 This application is for educational purposes only and should not be used for malicious purposes.
+
+
+To install, place extracted folder into any web server. 
+
+Dependencies required
+  - Python3 with Watchdog Package 
+  - PHP (Some changes to the php.ini, such as max packet and file upload sizes may be needed to be changed)
+  
