@@ -42,6 +42,9 @@ class CommandExecutionHandler(FileSystemEventHandler):
             time.sleep(25)
            
             subprocess.call(['taskkill', '/F', '/IM', 'soffice.bin'])
+            
+            time.sleep(25)
+            
             subprocess.Popen('cmd.exe /K del ' + filename )
 
             
